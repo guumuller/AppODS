@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".ODS1Activity">
 
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="145dp"
+        android:layout_height="137dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318"
+        app:srcCompat="@drawable/ods1" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="387dp"
+        android:layout_height="112dp"
+        android:text="Erradicação da pobreza: acabar com a pobreza em todas as suas formas, em todos os lugares."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image1"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <Button
+        android:id="@+id/voltar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".ODS5Activity">
 
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="387dp"
+        android:layout_height="112dp"
+        android:text="Igualdade de gênero: alcançar a igualdade de gênero e empoderar todas as mulheres e meninas."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image5"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <Button
+        android:id="@+id/voltar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="176dp"
+        android:text="VOLTAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image3" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="145dp"
+        android:layout_height="137dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318"
+        app:srcCompat="@drawable/ods5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

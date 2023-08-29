@@ -6,4 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".ODS3Activity">
 
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="387dp"
+        android:layout_height="112dp"
+        android:text="Saúde e bem-estar: assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades."
+        app:layout_constraintBottom_toTopOf="@+id/voltar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/voltar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image3"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="145dp"
+        android:layout_height="137dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318"
+        app:srcCompat="@drawable/ods3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
